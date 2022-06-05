@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 from django.views.generic import TemplateView
-
+test = 'pull test'
 # https://docs.djangoproject.com/en/3.0/topics/http/urls/
 
 # To make {% url 'gview:cats' %} work in templates
