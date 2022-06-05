@@ -4,7 +4,7 @@ from django.views import View
 from django.shortcuts import render
 
 # Create your views here.
-
+test2 = 'anothertest'
 class CatListView(View):
     def get(self, request) :
         stuff = Cat.objects.all()
